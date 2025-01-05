@@ -60,7 +60,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # Membaca data dari CSV
-all_df = pd.read_csv("day_master.csv")
+all_df = pd.read_csv("dashboard/day_master.csv")
 
 # Mengonversi kolom tanggal
 datetime_columns = ["dteday"]
